@@ -1,0 +1,77 @@
+☁️ Đại Chiến Thần Thú Bầu Trời 5v5
+Celestial Beast Sky Arena
+Game chiến đấu theo lượt trên đấu trường bầu trời, nơi Đội Linh Thú Thiên Giới đối đầu với Đội Boss Hùng Thú. Điều khiển các linh thú, sử dụng kỹ năng và theo dõi diễn biến trận đấu qua nhật ký chiến đấu.
+✨ Tính năng
+- Đấu đội 5v5: 10 thần thú chia thành hai đội, mỗi đội có 5 thành viên.
+- Hai chế độ chơi:
+  - Tự Chơi (Chỉ Huy 5v5): người chơi chọn hành động để hỗ trợ đội Linh Thú Thiên Giới.
+  - Boss vs Boss 5v5: hai đội tự động chiến đấu.
+- Bốn hành động chiến đấu:
+  - 🐾 Vuốt Thú Cào Xé: gây sát thương lên mục tiêu.
+  - 🧪 Linh Khí Phục Hồi: hồi HP cho đồng đội.
+  - 🛡️ Giáp Thú Phòng Ngự: giảm sát thương nhận vào.
+  - 🦁 Sư Tử Hống: gây sát thương lên toàn bộ đội đối phương.
+- Điều khiển trận đấu: bắt đầu/tạm dừng, đi từng chiêu, mở trận mới và điều chỉnh tốc độ 1x, 2x hoặc 4x.
+- Chọn mục tiêu: nhấp vào thần thú đối phương còn chiến đấu để chọn mục tiêu.
+- Hiệu ứng hình ảnh: thần thú lơ lửng, hoạt ảnh tấn công, thanh HP, hiệu ứng sát thương/hồi máu và màn hình kết quả.
+- Âm thanh: có thể bật hoặc tắt hiệu ứng âm thanh được tạo bằng Web Audio API.
+- Nhật ký chiến đấu: theo dõi diễn biến trận đấu.
+- Giao diện thích ứng: bố cục hỗ trợ cả màn hình máy tính và thiết bị nhỏ.
+🛠️ Công nghệ sử dụng
+- HTML5
+- CSS3 (responsive layout, animation, gradient)
+- JavaScript thuần
+- HTML Canvas cho nền bầu trời
+- SVG cho hình minh họa thần thú
+- Web Audio API cho hiệu ứng âm thanh
+- Google Fonts: Cinzel và Outfit
+🚀 Cách chạy game
+Đây là game web chạy trên trình duyệt. Nếu mã nguồn nằm trong một file HTML độc lập, không cần cài Node.js, Python hay cơ sở dữ liệu.
+1. Tải mã nguồn về máy hoặc sao chép repository.
+2. Tìm file HTML chính của game (ví dụ index.html; tên file thực tế có thể khác).
+3. Mở file HTML bằng Google Chrome, Microsoft Edge hoặc Firefox.
+4. Nếu game không hoạt động khi mở trực tiếp, mở thư mục bằng Visual Studio Code, cài tiện ích Live Server, nhấp phải file HTML chính và chọn Open with Live Server.
+Game tải Google Fonts từ Internet nên kiểu chữ có thể thay đổi khi ngoại tuyến.
+
+🎮 Cách chơi
+1. Chọn một trong hai chế độ ở thanh phía trên.
+2. Trong chế độ Tự Chơi, nhấp vào Boss đối phương còn sống để chọn mục tiêu.
+3. Chọn hành động:
+   - Vuốt Thú Cào Xé: tấn công mục tiêu.
+   - Linh Khí Phục Hồi: hồi máu cho đồng đội.
+   - Giáp Thú Phòng Ngự: giảm sát thương nhận vào.
+   - Sư Tử Hống: tấn công nhiều đối thủ cùng lúc.
+4. Nhấn Bắt đầu đại chiến để chạy trận tự động; nhấn Tạm dừng đại chiến để tạm dừng hoặc Từng chiêu để tiến hành từng bước.
+5. Dùng nút 1x / 2x / 4x để thay đổi tốc độ trận đấu.
+6. Nhấn Trận mới để chơi lại.
+7. Dùng nút âm thanh ở cuối trang để bật/tắt hiệu ứng âm thanh.
+🐾 Các đội thần thú
+Đội Linh Thú Thiên Giới
+- 🦁 Kim Sư Vương
+- 🐵 Hầu Vương
+- 🦚 Khổng Tước
+- 🐘 Bạch Tượng
+- 🦊 Cửu Vĩ Hồ
+Đội Boss Hùng Thú
+- 🐯 Bạch Hổ Vương
+- 🐻 Hùng Vương
+- 🦅 Ưng Vương
+- 🐺 Lang Vương
+- 🐍 Hổ Mang Độc
+📁 Cấu trúc dự án
+Nếu game được lưu trong một file HTML, cấu trúc có thể như sau:
+ten-du-an/
+└── index.html   # HTML, CSS và JavaScript của game
+Nếu repository dùng tên file khác, hãy giữ nguyên tên file hiện có.
+🌐 Đưa game lên GitHub Pages
+1. Đưa file HTML và các tài nguyên cần thiết lên repository GitHub.
+2. Mở Settings → Pages trong repository.
+3. Chọn nhánh triển khai và thư mục chứa file HTML (thường là /(root) nếu file ở thư mục gốc).
+4. Lưu cấu hình, chờ GitHub Pages triển khai xong rồi mở URL được cung cấp.
+🧪 Kiểm thử
+- Thử cả hai chế độ chơi.
+- Kiểm tra chọn mục tiêu, bốn hành động, tạm dừng, từng chiêu, tốc độ trận đấu và tạo trận mới.
+- Kiểm tra bật/tắt âm thanh và giao diện trên màn hình nhỏ.
+📄 Giấy phép
+Chưa xác định giấy phép cho dự án. Nếu muốn người khác sử dụng, chỉnh sửa hoặc phân phối mã nguồn, hãy bổ sung file LICENSE phù hợp.
+Chúc bạn có những trận đại chiến mãn nhãn trên tầng mây! ☁️⚔️
